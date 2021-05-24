@@ -1,5 +1,7 @@
 # firearmStats
 
+Read the blog post accompanying this repository here: https://gecheline.medium.com/infographic-do-more-guns-more-freedom-d38980fa23f7
+
 This repository contains data, its transformation and exploration in terms of firearm ownership rates, firearm and police death rates and freedom indices per country for 2017. The goal with this little project is to search for potential global trends that relate firearm ownership, violence and personal freedom. The analysis is strictly descriptive, as the data, in the format used, is too diverse to grant any robust modeling. However, the simple bar and scatter plots and correlation heatmaps still help us answer the main questions posed:
 
 - Is there evidence for correlation between the firearm and police death rates with firearm ownership rates? - *Short answer: NO.*
