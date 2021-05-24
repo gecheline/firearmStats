@@ -20,3 +20,9 @@ All code is contained in the firearmStats_world notebook, which requires
 - seaborn
 - itertools
 for successful execution.
+
+The conclusions of this exploratory analysis are the following:
+- There are no clear correlations between firearm ownership, firearm-caused deaths and police-caused deaths on a global level. This is understandable because a lot of these incidents are driven by the laws, politics, economy and stability within a country and these differ greatly on a global scale.
+- Personal freedom index (PFI): firearm-caused deaths show the widest range in medium-PFI countries (6 < PFI < 8), while police-caused deaths are highest for low-PFI (PFI < 6) countries. This is logical if we take into account access to firearms and political instabilities in both of these groups.
+- USA is a clear outlier in all of these categories within the high PFI group. Its firarm-caused death rates are closer to the mid-PFI countries (with much lower firearm ownership rates), while police-caused death rates fall on the boundary of the values spanned by mid-PFI and low-PFI countries.
+- **The firearm ownership rate in the US does not follow the trends of the rest of the countries with high PFI. Its removal from the dataset significantly decreases the correlation between firearm ownership and firearm/police fatalities, but slightly increases the correlation between firearm ownership and personal freedom.**
